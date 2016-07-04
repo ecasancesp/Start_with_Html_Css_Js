@@ -3,22 +3,30 @@
 <html>
 
     <head>
+        <meta charset="utf-8">  <!-- Evitar que no salga el error de codificacion no declarada -->
         <title>Proyect</title>
+        <link rel="stylesheet" type="text/css" media="screen" href="style.css"/>
     </head>
-    <body>
+    <body class="container">
         <div>
-            <form>
-                <p>User's idea:</p>
-                <input name="UserIdea" id="UserIdea"/>
+            <form id="part1">
+                <p id="idea">User idea:</p>
+                <input type="text" id="userIdea" width="100%"/>
             </form>
         </div>
         <div>
-            <form>
-                <p>Description</p>
-                <input name="UserDescription:" id="UserDescription"/>
-                <input type="button" value="Submit" id="ButtonSubmit"/>
+            <form id="part2">
+                <p id="description">Description:</p>
+                <p id="requirement"> min. 100 letters </p>
+                <input name="userDescription" id="userDescription"/>
+                <button type=button id="submit">Submit</button>
             </form>
+            <input id="saveEnd"/>
         </div>
+        <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
+        <script type="text/javascript" src="main.js"></script>
     </body>
 
 </html>
+
+<!-- falta que al escribir en las casillas no desplace -->

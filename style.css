@@ -1,0 +1,68 @@
+/* style */
+
+#part1, #part2{
+    border: solid 2px lightblue;
+    margin: 10px 0px;
+    background-color: #eee;
+}
+
+.container{             /* de class */
+    width: 1089px;      /* 989ps */
+    margin: 0 auto;
+}
+
+body{
+    background-color: lightsalmon;
+}
+
+#idea{                  /* de id */
+    color: saddlebrown;
+    font-size: 20px;
+    padding: 0px;
+    margin: 15px 0px 5px 10px;
+}
+
+#userIdea{
+    margin: 0px 0px 30px 10px;
+    padding-right: 300px;
+    padding-bottom: 5px;
+}
+
+#requirement{
+    color: darkorange;
+    font-size: 14px;
+    padding: 0px;
+    float: right;
+    margin: -24px 884px 0px 0px;
+}
+
+#description{
+    color: saddlebrown;
+    font-size: 20px;
+    padding: 0px;
+    margin: 15px 0px 5px 10px;
+}
+
+#userDescription{
+    margin: 0px 0px 30px 10px;
+    padding-right: 400px;
+    padding-bottom: 100px;
+}
+
+#submit{
+    margin: 0px 0px 30px 0px;
+    font-weight: bold;
+    width: 80px;
+    font-size: 14px;
+    background-color: limegreen;
+    border: solid 2px orange;
+    border-radius: 3px;
+    vertical-align: bottom;
+}
+
+#saveEnd{
+    color: blue;
+    font-size: 24px;
+    background-color: lightsalmon;
+    border: 0px;
+}

@@ -11,22 +11,26 @@
         <div>
             <form id="part1">
                 <p id="idea">User idea:</p>
-                <input type="text" id="userIdea" width="100%"/>
-            </form>
-        </div>
-        <div>
-            <form id="part2">
+                <textarea id="userIdea" rows="1" cols="55"></textarea>
                 <p id="description">Description:</p>
                 <p id="requirement"> min. 100 letters </p>
-                <input name="userDescription" id="userDescription"/>
+                <textarea id="userDescription" rows="9" cols="65"></textarea>
                 <button type=button id="submit">Submit</button>
             </form>
             <input id="saveEnd"/>
+                <table id="table1" style="width:100%">
+                    <tbody>
+                        <tr id="row1">
+                            <th id="tidea">Idea</th>
+                            <th>Description</th>
+                        </tr>
+                        <tr id="row2">
+                        </tr>
+                    </tbody>
+                </table>
         </div>
         <script type="text/javascript" src="jquery-3.0.0.min.js"></script>
         <script type="text/javascript" src="main.js"></script>
     </body>
 
 </html>
-
-<!-- falta que al escribir en las casillas no desplace -->

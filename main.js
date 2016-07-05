@@ -23,7 +23,10 @@ $(document).ready(function () {
             }
             else{
                 $("#saveEnd").val(save).show();
-                $("#saveEnd").val(save).hide(6000);
+                $("#saveEnd").val(save).hide(3000);
+                $("#table1").append ("<tr><td>"+ uIdea +"</td><td>"+ uDescrip +"</td></tr>");
+
+                
             }
         }
     });

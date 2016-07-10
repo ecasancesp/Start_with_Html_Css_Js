@@ -1,1 +1,76 @@
 /* style */
+
+#part1{
+    border: solid 2px lightblue;
+    margin: 10px 0px;
+    background-color: #eee;
+}
+
+body{
+    background-color: lightsalmon;
+    width: 1089px;      /* 989ps */
+    margin: 0 auto;
+}
+
+#idea{                  /* de id */
+    color: saddlebrown;
+    font-size: 20px;
+    padding: 0px;
+    margin: 15px 0px 5px 10px;
+}
+
+#userIdea{
+    margin: 0px 0px 30px 10px;
+}
+
+#requirement{
+    color: darkorange;
+    font-size: 14px;
+    padding: 0px;
+    float: right;
+    margin: -24px 884px 0px 0px;
+}
+
+#description{
+    color: saddlebrown;
+    font-size: 20px;
+    padding: 0px;
+    margin: 15px 0px 5px 10px;
+}
+
+#userDescription{
+    margin: 0px 0px 30px 10px;
+}
+
+#submit{
+    margin: 0px 0px 30px 0px;
+    font-weight: bold;
+    width: 80px;
+    font-size: 14px;
+    background-color: limegreen;
+    border: solid 2px orange;
+    border-radius: 3px;
+    vertical-align: bottom;
+}
+
+#table1{
+    border: solid 2px red;
+    margin: 10px 0px;
+    background-color: lightcyan;
+    margin: 25px 0px 0px 0px;
+}
+
+td, th{
+    border: solid 1px gray;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+#row1{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+#tidea{
+    width: 350px;
+}

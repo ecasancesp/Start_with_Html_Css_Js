@@ -14,7 +14,7 @@
                 <textarea id="userIdea" rows="1" cols="55" ng-model="ideaText" ng-minlength="1"></textarea>
                 <p id="description">Description:</p>
                 <p id="requirement"> min. 100 letters </p>
-                <textarea id="userDescription" rows="9" cols="65" ng-model="descText" ng-minlength="100"></textarea>
+                <textarea id="userDescription" rows="9" cols="65" ng-model="descText" ng-minlength="100" ng-required="true"></textarea>
                 <button ng-click="submitData()" type=button id="submit">Submit</button>
             </form>
                 <table id="table1" style="width:100%" ng-show="showMe">

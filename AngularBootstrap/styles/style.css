@@ -1,0 +1,53 @@
+/* style */
+
+#part1{
+    border: solid 2px lightblue;
+    background-color: #eee;
+    padding: 8px;
+}
+
+/*
+.container{
+    width: 1089px;
+    margin: 0 auto;
+}*/
+
+body{
+    background-color: lightsalmon;
+}
+
+#myContainer .row {
+  margin-bottom: 8px;
+}
+
+#idea{                  /* de id */
+    color: saddlebrown;
+    font-size: 20px;
+}
+
+#userIdea{
+}
+
+#requirement{
+    color: darkorange;
+    font-size: 14px;
+}
+
+#description{
+    color: saddlebrown;
+    font-size: 20px;
+}
+
+#userDescription{
+}
+
+#table1 {
+  background-color: #eee;
+}
+
+#saveEnd{
+    color: blue;
+    font-size: 24px;
+    background-color: lightsalmon;
+    border: 0px;
+}

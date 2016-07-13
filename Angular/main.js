@@ -2,7 +2,7 @@
 
 (function(angular) {    //no es necesario poner 'angular'
     "use strict";
-    
+
     var enriqueApp = angular.module("enriqueApp",[]);
 
     enriqueApp.controller("DivController", DivController);
@@ -12,6 +12,8 @@
         $scope.submitData = function () {
             var idea = $scope.ideaText;
             var desc = $scope.descText;
+            console.debug(idea);
+            console.debug(desc);
             if (idea == "" || idea == undefined) {
                 if (desc == undefined || desc == "") {
                     window.alert("Idea missing \nCheck description requirement");
@@ -32,5 +34,5 @@
             }
         }
     }
-    
+
 })(window.angular); //no es necesario poner 'window.angular'
